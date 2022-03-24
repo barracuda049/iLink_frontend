@@ -1,0 +1,190 @@
+.MyReviewMobile{
+  display: none;
+
+
+  .ReviewWrapperMobile{
+
+
+    .ReviewHeaderMobile{
+
+
+      .ButtonWrapperMobile{
+
+      }
+      .reviewMobile{
+
+      }
+    }
+
+    .ReviewContentWrapperMobile{
+
+      //.ReviewContent{
+      //  display: flex;
+      //  width: 519px;
+      //  height: 100%;
+      //  margin-top: 38px;
+      //  padding: 24px;
+      //  background-color: #F5F5F5;
+      //  flex-direction: column;
+      //  .ReviewContentHeaderWrapper{
+      //    display: flex;
+      //    width: 100%;
+      //    height: 52px;
+      //    align-items: flex-start;
+      //    justify-content: space-between;
+      //
+      //    .ReviewContentHeaderAvatarAndNameWrapper{
+      //      display: flex;
+      //      width: 244px;
+      //      height: 52px;
+      //      align-items: center;
+      //      justify-content: space-between;
+      //      .ReviewContentHeaderName{
+      //        width: 172px;
+      //        height: 28px;
+      //        //border: 1px solid black;
+      //      }
+      //    }
+      //  }
+      //
+      //  .ReviewContentText{
+      //    width: 100%;
+      //    height: 100%;
+      //    margin-top: 24px;
+      //  }
+      //}
+    }
+
+    .footerWrapperCurrentMobile{
+
+    }
+
+    .footerWrapperNoCurrentMobile{
+
+
+    }
+  }
+
+  .ArrowWrapperMobile{
+
+    button{
+      cursor: pointer;
+      border: none;
+    }
+  }
+  .reviewTabMobile{
+
+
+    &:nth-child(n+1){
+      margin-left: 6px;
+    }
+  }
+
+  .reviewActiveTabMobile{
+    width: 32px;
+    opacity: 1;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .MyReviewMobile {
+    display: flex;
+    width: 304px;
+    height: 479px;
+    margin-top: 57px;
+    margin-left: -17px;
+    align-items: flex-end;
+
+    .ReviewWrapperMobile {
+      display: flex;
+      padding-left: 16px;
+      padding-top: 20px;
+      padding-right: 15px;
+      width: 304px;
+      height: 479px;
+      //border: 1px solid white;
+      flex-direction: column;
+      background-color: white;
+
+      .ReviewHeaderMobile {
+        display: flex;
+        width: 100%;
+        height: 88px;
+        justify-content: space-between;
+        align-items: center;
+
+        .ButtonWrapperMobile {
+          width:42px;
+          height: 42px;
+          padding: 14px;
+          img{
+            margin-left: -2px;
+          }
+        }
+
+        .reviewMobile {
+          width: 254px;
+          height: 100%;
+          font-family: 'Factor A';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 42px;
+          letter-spacing: -0.0124em;
+          color: #333333;
+        }
+      }
+
+      .ReviewContentWrapperMobile{
+        display: flex;
+      }
+
+      .footerWrapperCurrentMobile {
+        display: flex;
+        margin-top: 64px;
+        width: 100%;
+        margin-left: 20px;
+      }
+
+      .footerWrapperNoCurrentMobile {
+        display: flex;
+        margin-top: 64px;
+        width: 100%;
+        margin-left: 20px;
+
+      }
+    }
+
+    .ArrowWrapperMobile {
+      display: none;
+      justify-content: space-between;
+      width: 128px;
+      height: 56px;
+      margin-bottom: 0px;
+      margin-left: 34px;
+
+      button {
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    .reviewTabMobile {
+      width: 16px;
+      height: 4px;
+      background-color: #585CC6;
+      opacity: 0.3;
+
+      &:nth-child(n+1) {
+        margin-left: 6px;
+      }
+    }
+
+    .reviewActiveTabMobile {
+      width: 32px;
+      opacity: 1;
+    }
+  }
+}

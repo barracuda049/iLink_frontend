@@ -1,0 +1,136 @@
+.MyAvatarAndInfo {
+  display: flex;
+  width: auto;
+  height: 415px;
+  align-items: center;
+  margin-top: 88px;
+
+  .Avatar {
+    width: 519px;
+    height: 383px;
+  }
+
+  .Info {
+    display: flex;
+    width: 761px;
+    height: 383px;
+    padding: 40px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    background-color: white;
+    flex-direction: column;
+
+    .ShortInfo {
+      display: flex;
+      width: 100%;
+      height: 76px;
+      flex-direction: column;
+
+      .Name {
+        font-family: "Factor A TRIAL";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: #585cc6;
+      }
+      .CitySexAge {
+        display: flex;
+        margin-top: 20px;
+        .BoldFont {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          /* identical to box height, or 133% */
+          letter-spacing: 0.01em;
+          color: #333333;
+        }
+
+        .City {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          /* identical to box height, or 133% */
+          letter-spacing: 0.01em;
+          color: #333333;
+        }
+        .SexAndImage {
+          margin-left: 40px;
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          /* identical to box height, or 133% */
+          letter-spacing: 0.01em;
+          color: #333333;
+        }
+        .Age {
+          margin-left: 45.08px;
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          /* identical to box height, or 133% */
+          letter-spacing: 0.01em;
+          color: #333333;
+        }
+      }
+    }
+
+    .Desc {
+      margin-top: 18px;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      /* or 133% */
+
+      letter-spacing: 0.01em;
+
+      color: #333333;
+    }
+
+    .PetExistWrapper {
+      display: flex;
+      align-items: center;
+      margin-top: 36px;
+
+      .PetExistFont {
+        font-family: "Gilroy";
+        margin-left: 12px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: 0.01em;
+
+        color: #333333;
+      }
+    }
+  }
+  .simpleFont {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    letter-spacing: 0.01em;
+    color: #333333;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .MyAvatarAndInfo {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.Button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 28px 17px;
+  min-width: 200px;
+  height: 52px;
+  background: #585cc6;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  .ButtonFont {
+    display: flex;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  .profileStyle {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+.buttonWithImg {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  padding: 17px 28px 17px 30px;
+  height: 52px;
+  background: #585cc6;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+
+  img {
+    margin-top: 2px;
+  }
+  .spanStyle {
+    margin-left: 5.85px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+}

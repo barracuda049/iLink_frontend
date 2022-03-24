@@ -1,0 +1,213 @@
+.MyReview {
+  display: flex;
+  width: 1360px;
+  height: 525px;
+  margin-top: 120px;
+  margin-left: -80px;
+  align-items: flex-end;
+
+  .ReviewWrapper {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 56px;
+    width: 1198px;
+    height: 525px;
+    //border: 1px solid white;
+    flex-direction: column;
+    background-color: white;
+
+    .ReviewHeader {
+      display: flex;
+      width: 100%;
+      height: 88px;
+      align-items: center;
+      justify-content: space-between;
+
+      .ButtonWrapper {
+        display: flex;
+        width: 220px;
+        height: 88px;
+        align-items: center;
+        margin-right: 56px;
+      }
+      .review {
+        width: 254px;
+        height: 100%;
+        //border: 1px solid black;
+        font-family: "Factor A";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 68px;
+        line-height: 88px;
+        /* identical to box height, or 129% */
+
+        letter-spacing: -0.0124em;
+
+        /* Main Text #333333 */
+
+        color: #333333;
+      }
+    }
+
+    .ReviewContentWrapper {
+      display: flex;
+      width: 1062px;
+      height: 279px;
+      justify-content: space-between;
+    }
+
+    .footerWrapperCurrent {
+      display: flex;
+      margin-top: 64px;
+      width: 100%;
+      margin-left: 501px;
+    }
+
+    .footerWrapperNoCurrent {
+      display: flex;
+      margin-top: 64px;
+      width: 100%;
+      margin-left: 489px;
+    }
+    .buttonWithImg {
+      //margin-right: 56px;
+    }
+  }
+
+  .ArrowWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+    height: 56px;
+    margin-bottom: 0px;
+    margin-left: 34px;
+    button {
+      cursor: pointer;
+      border: none;
+    }
+  }
+  .reviewTab {
+    width: 16px;
+    height: 4px;
+    background-color: #585cc6;
+    opacity: 0.3;
+
+    &:nth-child(n + 1) {
+      margin-left: 6px;
+    }
+  }
+
+  .reviewActiveTab {
+    width: 32px;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .MyReview {
+    display: flex;
+    width: 304px;
+    height: 479px;
+    margin-top: 57px;
+    margin-left: -17px;
+    align-items: flex-end;
+
+    .ReviewWrapper {
+      display: flex;
+      padding-left: 16px;
+      padding-top: 20px;
+      padding-right: 15px;
+      width: 304px;
+      height: 479px;
+      //border: 1px solid white;
+      flex-direction: column;
+      background-color: white;
+
+      .ReviewHeader {
+        display: flex;
+        width: 100%;
+        height: 44px;
+        justify-content: space-between;
+        align-items: center;
+
+        .ButtonWrapper {
+          height: 44px;
+          .buttonWithImg {
+            width: 42px;
+            height: 42px;
+            margin-right: 15px;
+            padding: 12px;
+            .spanStyle {
+              display: none;
+            }
+          }
+        }
+
+        .review {
+          width: 254px;
+          height: 100%;
+          font-family: "Factor A";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 42px;
+          letter-spacing: -0.0124em;
+          color: #333333;
+        }
+      }
+
+      .ReviewContentWrapper {
+        display: flex;
+        width: 304px;
+        margin-top: 0px;
+        .notVsibleForMobile {
+          display: none;
+        }
+      }
+
+      .footerWrapperCurrent {
+        display: flex;
+        margin-top: 112px;
+        width: 100%;
+        margin-left: 20px;
+      }
+
+      .footerWrapperNoCurrent {
+        display: flex;
+        margin-top: 112px;
+        width: 100%;
+        margin-left: 20px;
+      }
+    }
+
+    .ArrowWrapper {
+      display: none;
+      justify-content: space-between;
+      width: 128px;
+      height: 56px;
+      margin-bottom: 0px;
+      margin-left: 34px;
+
+      button {
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    .reviewTab {
+      width: 16px;
+      height: 4px;
+      background-color: #585cc6;
+      opacity: 0.3;
+
+      &:nth-child(n + 1) {
+        margin-left: 6px;
+      }
+    }
+
+    .reviewActiveTab {
+      width: 32px;
+      opacity: 1;
+    }
+  }
+}

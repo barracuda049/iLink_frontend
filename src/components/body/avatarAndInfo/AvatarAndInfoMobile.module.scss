@@ -1,0 +1,137 @@
+.MyAvatarAndInfoMobile {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .MyAvatarAndInfoMobile {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 666px;
+    align-items: center;
+    margin-top: 64px;
+    .AvatarMobile {
+      margin-left: 16px;
+      width: 304px;
+      height: 200px;
+    }
+
+    .InfoMobile {
+      display: flex;
+      width: 288px;
+      height: 482px;
+      padding-right: 16px;
+      padding-top: -32px;
+      padding-left: 16px;
+      margin-top: -16px;
+      background-color: white;
+      flex-direction: column;
+
+      .BoldFontMobile {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height, or 133% */
+        letter-spacing: 0.01em;
+        color: #333333;
+      }
+
+      .ShortInfoMobile {
+        display: flex;
+        width: 100%;
+        height: 32px;
+        flex-direction: column;
+
+        .NameMobile {
+          font-family: "Factor A";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #585cc6;
+        }
+        .CitySexAgeMobile {
+          display: flex;
+          flex-direction: row;
+          //margin-top: 16px;
+          flex-wrap: wrap;
+
+          .CityMobile {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 133% */
+            letter-spacing: 0.01em;
+            color: #333333;
+          }
+          .SexAndImageMobile {
+            margin-left: 28px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+            color: #333333;
+          }
+        }
+        .AgeMobile {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: 0.01em;
+          color: #333333;
+        }
+      }
+
+      .DescMobile {
+        display: flex;
+        margin-top: 88px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #333333;
+      }
+
+      .PetExistWrapperMobile {
+        display: flex;
+        align-items: center;
+        margin-top: 22px;
+
+        .PetExistFontMobile {
+          display: flex;
+          font-family: "Gilroy";
+          margin-left: 8px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          /* identical to box height, or 133% */
+
+          letter-spacing: 0.01em;
+
+          color: #333333;
+        }
+      }
+    }
+    .simpleFontMobile {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      /* or 133% */
+      letter-spacing: 0.01em;
+      color: #333333;
+    }
+  }
+}
